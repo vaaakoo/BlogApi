@@ -21,12 +21,12 @@ export class AuthGuard implements CanActivate {
   
     if (this.authService.isLoggedIn || this.authService.isAdministrator) {
   debugger
-  // console.log('Current URL:', state.url);
+  console.log(this.authService.isLoggedIn)
       if (state.url.startsWith('/admin-page') ) {
         this.router.navigate(['/home']);
         alert('You do not have permission to access Admins page, please login!');
 
-        return true;
+        return false;
       }
   
       if (state.url.startsWith('/client-page') ) {
@@ -34,7 +34,7 @@ export class AuthGuard implements CanActivate {
         alert('You do not have permission to access this page, please login!');
       }
   
-      return true;
+      return false;
     }
   
     alert('You do not have permission to access this page, please login!');

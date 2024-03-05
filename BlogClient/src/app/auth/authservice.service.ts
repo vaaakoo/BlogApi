@@ -10,6 +10,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root',
 })
 export class AuthserviceService {
+  loginedUser: string = '';
   constructor(private http: HttpClient) {}
 
   private isAuthenticatedSubject = new BehaviorSubject<boolean>(false);
@@ -17,7 +18,6 @@ export class AuthserviceService {
   private apiUrl: string = environment.apiUrl;
 
   private authToken: string = '';
-
 
 
   get isAuthenticated(): Observable<boolean> {
@@ -58,8 +58,8 @@ export class AuthserviceService {
     const userInfoString = localStorage.getItem('userInfo');
     return userInfoString ? JSON.parse(userInfoString) : null;
   }
-  
 
+  
   // 
   login(user: Useregisteration): Observable<any> {
     return this.http.post<any>(`${this.apiUrl}/Authentication/login`, user)
@@ -71,7 +71,6 @@ export class AuthserviceService {
         })
       );
   }
-  
 
   get isLoggedIn(): boolean {
     const { userInfo } = this.getToken();

@@ -16,14 +16,12 @@ export class RegistrationComponent {
     this.authserviceService.RegistrationUser(this.user)
       .subscribe(
         response => {
-          // Handle successful registration
           console.log('User registered successfully:', response);
-          // Perform navigation or show success message
+          alert('successful Registered User!');
+
         },
         error => {
-          // Handle registration error
           console.error('Error during user registration:', error);
-          // Display error message to the user
         }
       );
   }
