@@ -3616,11 +3616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\v.janikashvili\\Desktop\\New folder\\BlogServer\\BlogServer.csproj",
+      "projectUniqueName": "C:\\Users\\v.janikashvili\\Desktop\\Blog\\BlogServer\\BlogServer.csproj",
       "projectName": "BlogServer",
-      "projectPath": "C:\\Users\\v.janikashvili\\Desktop\\New folder\\BlogServer\\BlogServer.csproj",
+      "projectPath": "C:\\Users\\v.janikashvili\\Desktop\\Blog\\BlogServer\\BlogServer.csproj",
       "packagesPath": "C:\\Users\\v.janikashvili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\v.janikashvili\\Desktop\\New folder\\BlogServer\\obj\\",
+      "outputPath": "C:\\Users\\v.janikashvili\\Desktop\\Blog\\BlogServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\v.janikashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",

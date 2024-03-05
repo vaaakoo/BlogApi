@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QJ71vgLA1vcKvizkp+7br5n9A3ORbiDvw3Y2oDIEwbmudZyfF4pf30e1JMhdum+2PQkSV9WIl+AtPWelVvauOA==",
+  "dgSpecHash": "mqpaIwEc6C/nR5TaxR5E6bKEYEO9utU+s1AMiz6KO+V7cC5HM/hwvUn4/W7RNWYAp1RdfSyOsF5jH1U5cabgHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\v.janikashvili\\Desktop\\New folder\\BlogServer\\BlogServer.csproj",
+  "projectFilePath": "C:\\Users\\v.janikashvili\\Desktop\\Blog\\BlogServer\\BlogServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\v.janikashvili\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\v.janikashvili\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
