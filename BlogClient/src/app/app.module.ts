@@ -10,7 +10,6 @@ import { AuthserviceService } from './auth/authservice.service';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { AuthGuard } from './auth/auth.guard';
 import { LoginComponent } from './login/login.component';
-import { RouterModule } from '@angular/router';
 import { PostComponent } from './post/post.component';
 
 @NgModule({

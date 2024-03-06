@@ -7,7 +7,6 @@ import { AuthserviceService } from '../auth/authservice.service';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent implements OnInit {
-  isDropdownOpen: boolean = false; // Initial state of the dropdown
 
 
   constructor(private authService: AuthserviceService) {} // Inject the authentication service
@@ -21,7 +20,4 @@ export class NavbarComponent implements OnInit {
     this.authService.logout(); // Call the logout method from the authentication service
   }
 
-  toggleDropdown(): void {
-    this.isDropdownOpen = !this.isDropdownOpen; // Toggle the dropdown state
-  }
 }
